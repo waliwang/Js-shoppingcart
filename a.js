@@ -17,9 +17,13 @@
 //   })
 // })
 
-document.addEventListener("DOMContentLoaded", () => {
-    const x = document.querySelector("#hello")
-    const s = x.dataset
-    console.log(s) 
-})
+// document.addEventListener("DOMContentLoaded", () => {
+//     const x = document.querySelector("#hello")
+
+//     x.addEventListener("click", (el) => {
+//         el.preventDefault()
+//         console.log("hi")
+//         // alert("h1")
+//     })
+// })
 

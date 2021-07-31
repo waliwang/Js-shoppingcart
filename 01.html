@@ -9,15 +9,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="hello">Hello</div>
+    <div id="hello">Hello
+      (<span id="count">0</span>)
+    </div>
     <div id="productArea">
-      <a href="#" data-product-id="u-123">加到購物車</a>
-      <a href="#" data-product-id="u-456">加到購物車</a>
+      <a href="#" class="addToCart" data-product-id="u-111">u-111</a>
+      <a href="#" class="addToCart" data-product-id="u-222">u-222</a>
+      <a href="#" class="addToCart" data-product-id="u-333">u-333</a>
+      <a href="#" class="addToCart" data-product-id="u-444">u-444</a>
     </div>
 
     <div id="shoppingCart">
       <ul class="list">
+      <span id="state">目前沒有任何商品</span>  
       </ul>
     </div>
+
+
+ 
   </body>
 </html>
